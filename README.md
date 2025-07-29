@@ -6,9 +6,11 @@ Vasquez, Nicolas; Mendoza, Pablo A., 2024, "Statistically downscaled and bias co
 1. Se obtuvieron las estaciones de precipitación a partir de la base de datos del CR2 (CR2, 2019) para las regiones I a III. Se seleccionaron estaciones con código DGA que cuenten con más de 20 años de datos.
 Se estudio el período comprendido entre los años hidrológicos 1970 y 2020, dividido en subperíodos de 10 años hidrológicos.
 
-2. Se obtuvo un PCA a partir de P_anual_GCM según año hidrológico de cada GCM en estaciones. La precipitación anual GCM se obtuvo con la latitud y longitud de cada estacion y el pixel que contiene a la estación (ver **Figura 1**).
+2. Se obtuvo un PCA que se muestra en la **Figura 1** partir de P_GCM_anual según año hidrológico de cada GCM en estaciones. La precipitación anual GCM se obtuvo con la latitud y longitud de cada estacion y el pixel que contiene a la estación.
 
 ![Figura 1 - PCA](https://raw.githubusercontent.com/FelipeRivas5492/RF_corrPP/main/PCA.png)
+**Figura 1**: PCA P_GCM_anual y la varianza explicada acomulada por componente.
+
 
 3. Se asignaron a cada estación las componentes principales que explican la proporción de varianza acumulada requerida. Para este caso se consideraron 10 componentes principales.
   
