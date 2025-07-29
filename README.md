@@ -14,7 +14,7 @@ Se estudió el período comprendido entre los años hidrológicos 1970 y 2020, d
 <div align="center">
   <img src="https://raw.githubusercontent.com/FelipeRivas5492/RF_corrPP/main/PCA.png" alt="Figura 1 - PCA">
 </div>
-**Figura 1**: PCA para variable P_GCM_anual y la varianza explicada acomulada por componente.
+<p><strong>Figura 1</strong>: PCA para variable P_GCM_anual y la varianza explicada acomulada por componente.</p>
 
 <p align="justify">
 3. Se asignaron a cada estación las componentes principales que explican la proporción de varianza acumulada requerida. Para este caso se consideraron 10 componentes principales.
@@ -35,7 +35,7 @@ Se estudió el período comprendido entre los años hidrológicos 1970 y 2020, d
 <div align="center">
   <img src="https://raw.githubusercontent.com/FelipeRivas5492/RF_corrPP/main/PANEL_SCATTERPLOT1.png" alt="Panel_scatterplot1">
 </div>
-**Figura 2**: Panel de gráficos de dispersión para P_GCM_anual sin corrección con RF y para P_GCM_anual_corr. P1: validación espacial (1970–1980). P2–P5: validación espaciotemporal (1980–2020).
+<p><strong>Figura 2</strong>: Panel de gráficos de dispersión para P_GCM_anual sin corrección con RF y para P_GCM_anual_corr. P1: validación espacial (1970–1980). P2–P5: validación espaciotemporal (1980–2020).</p>
 
 <p align="justify">
 7. Se observa en la figura que, para una validación espacial en P1, se obtienen porcentajes de sesgo y coeficientes de determinación muy buenos. Para el resto de los períodos (validación espaciotemporal), se observa que empeoran estas métricas, pero ambas en un rango aceptable. Se muestra que para los períodos P2, P3, P4 y P5 el porcentaje de sesgo es menor que el del GCM de referencia.
@@ -48,7 +48,7 @@ Se estudió el período comprendido entre los años hidrológicos 1970 y 2020, d
 <div align="center">
   <img src="https://raw.githubusercontent.com/FelipeRivas5492/RF_corrPP/main/PANEL_SCATTERPLOT2.png" alt="Panel_scatterplot2">
 </div>
-**Figura 3**: Panel de gráficos de dispersión para experimentos 1, 2 y un GCM de referencia sin corrección
+<p><strong>Figura 3</strong>: Panel de gráficos de dispersión para experimentos 1, 2 y un GCM de referencia sin corrección</p>
 
 <p align="justify">
 9. Con las Figuras 2 y 3 es posible desprender, a partir de los modelos ajustados y las validaciones generadas, la capacidad de generalización espaciotemporal de un modelo RF para corregir sesgos en la magnitud de las precipitaciones anuales en tiempos y espacios no entrenados. En todas las validaciones se observa la utilidad del modelo en la reducción del porcentaje de sesgo de las precipitaciones anuales. En los experimentos de la Figura 3 es posible observar un PBIAS promedio para situaciones muy desfavorables de prueba de los modelos RF ajustados.
