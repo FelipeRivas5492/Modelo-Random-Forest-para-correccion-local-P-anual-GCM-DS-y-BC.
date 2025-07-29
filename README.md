@@ -15,7 +15,7 @@ Se estudio el período comprendido entre los años hidrológicos 1970 y 2020, di
   
 4. Se obtuvo la latitud, longitud, altitud, distancia a la costa, pendiente y aspecto para cada estación con un DEM. (Se pueden obtener para cualquier pixel :D)
 
-5. Se ajusto un modelo Random Forest (RF) usando las primeras 10 componentes principales y los atributos descritos anteriormente. Se probaron condiciones desfavorables para validar la capacidad de generalización espaciotemporal de los modelos RF ajustados y se usaron las métricas R2 y PBIAS para evaluar esta capacidad.
+5. Se ajusto un modelo Random Forest (RF) usando las primeras 10 componentes principales y los atributos descritos anteriormente. Se probaron condiciones desfavorables para validar la capacidad de generalización espaciotemporal de los modelos RF ajustados y se usaron las métricas de coeficiente de determinacion y porcentaje de sesgo entre observados y corregidos (R2 y PBIAS) para evaluar esta capacidad.
 
 6. En la **Figura 2** se muestra un modelo RF ajustado según el 40 % de las estaciones del período P1 (1970–1980). Se ajusto el modelo RF según los atributos y variables mencionadas y luego se evaluo la predicción según el coeficiente de determinación de los anuales y el porcentaje de sesgo entre las precipitaciones anuales observadas y las corregidas. Las estaciones de testeo para cada período no se usaron en el entrenamiento para evaluar la robustez del modelo en espacios (estaciones) y tiempos (períodos) distintos a los usados en entrenamiento (generalización espaciotemporal). Se muestra un GCM sin corrección para las estaciones de testeo.
 
