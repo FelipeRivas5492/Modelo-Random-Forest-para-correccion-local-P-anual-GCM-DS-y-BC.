@@ -1,4 +1,4 @@
-RANDOM FOREST PARA CORRECCIÓN DE PRECIPITACIÓN ANUAL DE GCM SD Y BC. GCM DISPONIBLES EN:
+RANDOM FOREST PARA CORRECCIÓN LOCAL DE PRECIPITACIÓN ANUAL DE GCM SD Y BC. GCM DISPONIBLES EN:
 
 Vasquez, Nicolas; Mendoza, Pablo A., 2024, "Statistically downscaled and bias corrected CMIP6 models for Continental Chile under scenario SSP5-8.5", https://doi.org/10.7910/DVN/O3YBOT, Harvard Dataverse, V1.
 
