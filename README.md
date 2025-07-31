@@ -51,7 +51,7 @@ Se estudió el período comprendido entre los años hidrológicos 1970 y 2020, d
 <p><strong>Figura 3</strong>: Panel de gráficos de dispersión para experimentos 1, 2 y un GCM de referencia sin corrección</p>
 
 <p align="justify">
-9. Con <p><strong>Figura 2</strong> y <p><strong>Figura 3</strong> es posible desprender, a partir de los modelos ajustados y las validaciones generadas, la capacidad de generalización espaciotemporal de un modelo RF para corregir sesgos en la magnitud de las precipitaciones anuales en tiempos y espacios no entrenados. En todas las validaciones se observa la utilidad del modelo en la reducción del porcentaje de sesgo de las precipitaciones anuales. En los experimentos de la Figura 3 es posible observar un PBIAS mejor que un GCM SD y BC para muchas iteraciones para condiciones desfavorables de prueba de los modelos RF ajustados.
+9. Con <strong>Figura 2</strong> y <strong>Figura 3</strong> es posible desprender, a partir de los modelos ajustados y las validaciones generadas, la capacidad de generalización espaciotemporal de un modelo RF para corregir sesgos en la magnitud de las precipitaciones anuales en tiempos y espacios no entrenados. En todas las validaciones se observa la utilidad del modelo en la reducción del porcentaje de sesgo de las precipitaciones anuales. En los experimentos de la Figura 3 es posible observar un PBIAS mejor que un GCM SD y BC para muchas iteraciones para condiciones desfavorables de prueba de los modelos RF ajustados.
 </p>
 
 <p align="justify">
