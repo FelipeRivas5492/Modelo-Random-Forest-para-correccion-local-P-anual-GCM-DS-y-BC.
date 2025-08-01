@@ -65,6 +65,8 @@ Se estudió el período comprendido entre los años hidrológicos 1970 y 2020, d
 </div>
 <p><strong>Figura 4</strong>: Panel series temporales anuales y media y dispersión movil para la estación Visviri. Izq: Visviri no participa en entrenamiento. Der: Visviri participa </p>
 
+<p align="justify">
+11. Se concluye que el modelo RF reduce el PBIAS para distintos tiempos y espacios, sin embargo, no es posible afirmar esta situación para la capacidad explicativa del modelo. Por lo tanto, la magnitud de la precipitacion es mas cercana a la zona de estudio (PBIAS menor), sin embargo, sin la suficiente variabilidad explicada seria mas optimo usar un promedio que el modelo. Se advierte tambien un sesgo de sobreestimación para precipitaciones anuales entre 0 y 200 mm que no fue corregido por el modelo RF. 
 
 
 
