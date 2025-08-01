@@ -21,7 +21,7 @@ Se estudió el período comprendido entre los años hidrológicos 1970 y 2020, d
 </p>
 
 <p align="justify">
-4. Se obtuvo la latitud, longitud, altitud, distancia a la costa, pendiente y aspecto para cada estación con un DEM. (Se pueden obtener para cualquier pixel :D)
+4. Se obtuvo la latitud, longitud, altitud, distancia a la costa, pendiente y aspecto para cada estación con un DEM.
 </p>
 
 <p align="justify">
@@ -59,10 +59,12 @@ Se estudió el período comprendido entre los años hidrológicos 1970 y 2020, d
 10. En la <strong>Figura 4</strong> se grafica la serie temporal de precipitaciones anuales, con y sin corrección para la estación Visviri. Se muestran los resultados de cuando la estación participa en el entrenamiento y de cuando no. Con ello, puede observarse que a pesar de la reducción en el PBIAS mostrada en las <strong>Figuras 2</strong> y <strong>3</strong>, el modelo ajustado sin la estación no logra alcanzar un valor adecuado de R<sup>2</sup>. Estos gráficos muestran una reducción del PBIAS, pero sin una mejora significativa en la capacidad explicativa del modelo RF (R<sup>2</sup>). Esta situación sugiere que el modelo podría estar sobreajustado al conjunto de entrenamiento o que, con las variables seleccionadas, no es posible explicar de forma adecuada la variabilidad temporal observada en los datos. Por lo tanto, a pesar de existir una reducción en el PBIAS, el modelo no explicó adecuadamente la variabilidad temporal de los datos dada una estación cualquiera que no participo del entrenamiento.
 </p>
 
+
 <div align="center">
   <img src="https://raw.githubusercontent.com/FelipeRivas5492/RF_corrPP/main/PLOT_VISVIRI.png" alt="PLOT_VISVIRI">
 </div>
 <p><strong>Figura 4</strong>: Panel series temporales anuales y media y dispersión movil para la estación Visviri. Izq: Visviri no participa en entrenamiento. Der: Visviri participa </p>
+
 
 
 
