@@ -1,6 +1,8 @@
 RANDOM FOREST PARA CORRECCIÓN LOCAL DE PRECIPITACIÓN ANUAL DE GCM SD Y BC. GCM DISPONIBLES EN:
+<p align="justify">
+<strong>Vasquez, Nicolas; Mendoza, Pablo A., 2024, "Statistically downscaled and bias corrected CMIP6 models for Continental Chile under scenario SSP5-8.5", https://doi.org/10.7910/DVN/O3YBOT, Harvard Dataverse, V1.</strong>
+</p>
 
-Vasquez, Nicolas; Mendoza, Pablo A., 2024, "Statistically downscaled and bias corrected CMIP6 models for Continental Chile under scenario SSP5-8.5", https://doi.org/10.7910/DVN/O3YBOT, Harvard Dataverse, V1.
 
 <p align="justify">
 1. Se obtuvieron las estaciones de precipitación a partir de la base de datos del CR2 (CR2, 2019) para las regiones I a III. Se seleccionaron estaciones con código DGA que cuenten con más de 20 años de datos.  
