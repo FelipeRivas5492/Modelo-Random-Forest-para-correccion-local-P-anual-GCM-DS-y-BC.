@@ -56,12 +56,16 @@ Se estudió el período comprendido entre los años hidrológicos 1970 y 2020, d
 <p><strong>Figura 4</strong>: Panel de gráficos de dispersión para experimentos 1, 2 y un GCM de referencia sin corrección</p>
 
 <p align="justify">
-9. Con <strong>Figura 3</strong> y <strong>Figura 4</strong> es posible desprender, a partir de los modelos ajustados y las validaciones generadas, la capacidad de generalización espaciotemporal de un modelo RF para corregir sesgos en la magnitud de las precipitaciones anuales en tiempos y espacios no entrenados. En todas las validaciones se observa la utilidad del modelo en la reducción del porcentaje de sesgo de las precipitaciones anuales. En los experimentos de la Figura 3 es posible observar un PBIAS mejor que un GCM SD y BC para muchas iteraciones para condiciones desfavorables de prueba de los modelos RF ajustados.
-  
+9. Con <strong>Figura 3</strong> y <strong>Figura 4</strong> es posible desprender, a partir de los modelos ajustados y las validaciones generadas, la capacidad de generalización espaciotemporal de un modelo RF para corregir sesgos en la magnitud de las precipitaciones anuales en tiempos y espacios no entrenados. En todas las validaciones se observa la utilidad del modelo en la reducción del porcentaje de sesgo de las precipitaciones anuales. En los experimentos de la Figura 3 es posible observar un PBIAS mejor que un GCM SD y BC para muchas iteraciones para condiciones desfavorables de prueba de los modelos RF ajustados.  
 </p>
 
+<p align="justify"> 
+10. Para generar la corrección hacia el futuro, se plantea un modelo RF que se entrena con todos los datos de todas las estaciones. Para probar el desempeño de este modelo, se dejan 10 estaciones fuera, entre ellas Visviri, con el objetivo de visualizar la situación en la que Visviri participa y no participa junto con las otras 9 estaciones. Se obtuvo un PCA con todos los GCM cada 10 años hidrológicos, desde 1950 hasta 2099, y con las primeras 10 componentes principales y los atributos estáticos para cada año, se genera el entrenamiento y las predicciones del RF.
+</p>
+
+  
 <p align="justify">
-10. En la <strong>Figura 5</strong> se muestra la serie temporal de precipitaciones anuales de un GCM de referencia y la serie corregida para la estación Visviri. Se muestran los resultados de cuando la estación participa en el entrenamiento y de cuando no. Con ello, puede observarse que a pesar de la reducción en el PBIAS mostrada en <strong>Figura 3</strong> y <strong>Figura 4</strong>, el modelo ajustado sin la estación no logro alcanzar un valor adecuado de R<sup>2</sup>. Estos gráficos muestran una reducción del PBIAS, pero sin una mejora significativa en la capacidad explicativa del modelo RF (R<sup>2</sup>) dada una estacion cualquiera que no participo del entrenamiento. Esta situación sugiere que el modelo podría estar sobreajustado al conjunto de entrenamiento o que, con las variables seleccionadas, no es posible explicar de forma adecuada la variabilidad temporal observada en los datos. 
+11. En la <strong>Figura 5</strong> se muestra la serie temporal de precipitaciones anuales de un GCM de referencia y la serie corregida para la estación Visviri. Se muestran los resultados de cuando la estación participa en el entrenamiento y de cuando no. Con ello, puede observarse que a pesar de la reducción en el PBIAS mostrada en <strong>Figura 3</strong> y <strong>Figura 4</strong>, el modelo ajustado sin la estación no logro alcanzar un valor adecuado de R<sup>2</sup>. Estos gráficos muestran una reducción del PBIAS, pero sin una mejora significativa en la capacidad explicativa del modelo RF (R<sup>2</sup>) dada una estacion cualquiera que no participo del entrenamiento. Esta situación sugiere que el modelo podría estar sobreajustado al conjunto de entrenamiento o que, con las variables seleccionadas, no es posible explicar de forma adecuada la variabilidad temporal observada en los datos. 
 </p>
 
 
@@ -72,7 +76,7 @@ Se estudió el período comprendido entre los años hidrológicos 1970 y 2020, d
 
 
 <p align="justify">
-11. Se concluye que el modelo RF redujo el PBIAS para distintos tiempos y espacios, sin embargo, no es posible afirmar esta situación para la capacidad explicativa del modelo RF. Por lo tanto, solo la magnitud de la precipitación anual es cercana a la zona de estudio (PBIAS menor). Se advierte tambien un sesgo de sobreestimación para precipitaciones anuales entre 0 y 100 mm que no fue posible de corregido por el modelo RF, este se puede observar en todos los testeos de la <strong>Figura 3</strong>, esto tambien es visible en la serie anual corregida de Visviri, ya que solamente para el periodo entrenado se observan valores ajustados menores a 200 mm y para la proyección todos los años P anual > 200 mm.  
+12. Se concluye que el modelo RF redujo el PBIAS para distintos tiempos y espacios, sin embargo, no es posible afirmar esta situación para la capacidad explicativa del modelo RF. Por lo tanto, solo la magnitud de la precipitación anual es cercana a la zona de estudio (PBIAS menor). Se advierte tambien un sesgo de sobreestimación para precipitaciones anuales entre 0 y 100 mm que no fue posible de corregido por el modelo RF, este se puede observar en todos los testeos de la <strong>Figura 3</strong>, esto tambien es visible en la serie anual corregida de Visviri, ya que solamente para el periodo entrenado se observan valores ajustados menores a 200 mm y para la proyección todos los años P anual > 200 mm.  
 
 
 
