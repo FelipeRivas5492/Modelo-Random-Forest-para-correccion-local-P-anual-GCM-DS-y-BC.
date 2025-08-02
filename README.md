@@ -8,7 +8,7 @@ Se estudió el período comprendido entre los años hidrológicos 1970 y 2020, d
 </p>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/FelipeRivas5492/RF_corrPP/main/MAP.png" alt="Figura 1 - PCA">
+  <img src="https://raw.githubusercontent.com/FelipeRivas5492/RF_corrPP/main/MAP.png" alt="Figura 1 - MAP">
 </div>
 <p><strong>Figura 1</strong>: Mapa estaciones usadas en entrenamiento y validaciones.</p>
 
@@ -17,7 +17,7 @@ Se estudió el período comprendido entre los años hidrológicos 1970 y 2020, d
 </p>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/FelipeRivas5492/RF_corrPP/main/PCA.png" alt="Figura 1 - PCA">
+  <img src="https://raw.githubusercontent.com/FelipeRivas5492/RF_corrPP/main/PCA.png" alt="Figura 2 - PCA">
 </div>
 <p><strong>Figura 2</strong>: PCA para variable P_GCM_anual y la varianza explicada acomulada por componente.</p>
 
