@@ -49,7 +49,7 @@ Se estudió el período comprendido entre los años hidrológicos 1970 y 2020, d
 </p>
 
 <p align="justify">
-8. Para probar la generalización espaciotemporal para distintos set de entrenamiento se considera un experimento de 1000 iteraciones. Donde cada iteración es un set de entrenamiento distinto generado a partir de una semilla aleatoria y la extracción del 40% de las estaciones. Para cada iteración se entrena en P1 y se prueba en las estaciones de testeo desde P1 a P5. El segundo experimento es igual pero en cada iteración se entrena en cada periodo y se prueba en los demás. El resultado de estos experimentos se muestra en <strong>Figura 4</strong>.
+8. Para probar la generalización espaciotemporal para distintos set de entrenamiento se consideró un experimento de 1000 iteraciones. Donde cada iteración es un set de entrenamiento distinto generado a partir de una semilla aleatoria y la extracción del 40% de las estaciones. Para cada iteración se entrenó en P1 y se prueba en las estaciones de testeo desde P1 a P5. El segundo experimento es igual pero en cada iteración se entrena en cada periodo y se prueba en los demás. El resultado de estos experimentos se muestra en <strong>Figura 4</strong>.
 </p>
 
 <div align="center">
